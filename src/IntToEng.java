@@ -96,6 +96,47 @@ public class IntToEng {
     	else if(n==79) Eng="seventy-nine";
     	else if(n==80) Eng="eighty";
     	
+    	else if(n==81) Eng="eighty-one";
+    	else if(n==82) Eng="eighty-two";
+    	else if(n==83) Eng="eighty-three";
+    	else if(n==84) Eng="eighty-four";
+    	else if(n==85) Eng="eighty-five";
+    	else if(n==86) Eng="eighty-six";
+    	else if(n==87) Eng="eighty-seven";
+    	else if(n==88) Eng="eighty-eight";
+    	else if(n==89) Eng="eighty-nine";
+    	else if(n==90) Eng="ninety";
+    	else if(n==91) Eng="ninety-one";
+    	else if(n==92) Eng="ninety-two";
+    	else if(n==93) Eng="ninety-three";
+    	else if(n==94) Eng="ninety-four";
+    	else if(n==95) Eng="ninety-five";
+    	else if(n==96) Eng="ninety-six";
+    	else if(n==97) Eng="ninety-seven";
+    	else if(n==98) Eng="ninety-eight";
+    	else if(n==99) Eng="ninety-nine";
+    	else if(n==100) Eng="one-hundred";
+    	else if(n==101) Eng="one-hundred-one";
+    	else if(n==102) Eng="one-hundred-two";
+    	else if(n==103) Eng="one-hundred-three";
+    	else if(n==104) Eng="one-hundred-four";
+    	else if(n==105) Eng="one-hundred-five";
+    	else if(n==106) Eng="one-hundred-six";
+    	else if(n==107) Eng="one-hundred-seven";
+    	else if(n==108) Eng="one-hundred-eight";
+    	else if(n==109) Eng="one-hundred-nine";
+    	else if(n==110) Eng="one-hundred-ten";
+    	else if(n==111) Eng="one-hundred-eleven";
+    	else if(n==112) Eng="one-hundred-twelve";
+    	else if(n==113) Eng="one-hundred-thirteen";
+    	else if(n==114) Eng="one-hundred-fourteen";
+    	else if(n==115) Eng="one-hundred-fifteen";
+    	else if(n==116) Eng="one-hundred-sixteen";
+    	else if(n==117) Eng="one-hundred-seventeen";
+    	else if(n==118) Eng="one-hundred-eighteen";
+    	else if(n==119) Eng="one-hundred-nineteen";
+    	else if(n==120) Eng="one-hundred-twenty";
+    	
         return Eng;
     }
 
