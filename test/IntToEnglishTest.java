@@ -606,4 +606,303 @@ IntToEng ite=new IntToEng();
 						String actual=ite.translateEng(80);
 						assertThat(actual,is(expected));	
 					}
+			@Test
+			public void 八十一を入力したときeightyoneと出力される() {
+				IntToEng ite=new IntToEng();
+						String expected= "eighty-one";
+						String actual=ite.translateEng(81);
+						assertThat(actual,is(expected));	
+					}
+					@Test
+					public void 八十二を入力したときeightytwoと出力される() {
+						IntToEng ite=new IntToEng();
+								String expected= "eighty-two";
+								String actual=ite.translateEng(82);
+								assertThat(actual,is(expected));	
+							}
+					@Test
+					public void 八十三を入力したときeightythreeと出力される() {
+						IntToEng ite=new IntToEng();
+								String expected= "eighty-three";
+								String actual=ite.translateEng(83);
+								assertThat(actual,is(expected));	
+							}
+					@Test
+					public void 八十四を入力したときeightyfourと出力される() {
+						IntToEng ite=new IntToEng();
+								String expected= "eighty-four";
+								String actual=ite.translateEng(84);
+								assertThat(actual,is(expected));	
+							}
+					@Test
+					public void 八十五を入力したときeightyfiveと出力される() {
+						IntToEng ite=new IntToEng();
+								String expected= "eighty-five";
+								String actual=ite.translateEng(85);
+								assertThat(actual,is(expected));	
+							}
+					@Test
+					public void 八十六を入力したときeightysixと出力される() {
+						IntToEng ite=new IntToEng();
+								String expected= "eighty-six";
+								String actual=ite.translateEng(86);
+								assertThat(actual,is(expected));	
+							}
+					@Test
+					public void 八十七を入力したときeightysevenと出力される() {
+						IntToEng ite=new IntToEng();
+								String expected= "eighty-seven";
+								String actual=ite.translateEng(87);
+								assertThat(actual,is(expected));	
+							}
+					@Test
+					public void 八十八を入力したときeightyeightと出力される() {
+						IntToEng ite=new IntToEng();
+								String expected= "eighty-eight";
+								String actual=ite.translateEng(88);
+								assertThat(actual,is(expected));	
+							}
+					@Test
+					public void 八十九を入力したときeightynineと出力される() {
+						IntToEng ite=new IntToEng();
+								String expected= "eighty-nine";
+								String actual=ite.translateEng(89);
+								assertThat(actual,is(expected));	
+							}
+					@Test
+					public void 九十を入力したときninetyと出力される() {
+						IntToEng ite=new IntToEng();
+								String expected= "ninety";
+								String actual=ite.translateEng(90);
+								assertThat(actual,is(expected));	
+							}
+					@Test
+					public void 九十一を入力したときninetyoneと出力される() {
+						IntToEng ite=new IntToEng();
+								String expected= "ninety-one";
+								String actual=ite.translateEng(91);
+								assertThat(actual,is(expected));	
+							}
+					@Test
+					public void 九十二を入力したときninetytwoと出力される() {
+						IntToEng ite=new IntToEng();
+								String expected= "ninety-two";
+								String actual=ite.translateEng(92);
+								assertThat(actual,is(expected));	
+							}
+					@Test
+					public void 九十三を入力したときninetythreeと出力される() {
+						IntToEng ite=new IntToEng();
+								String expected= "ninety-three";
+								String actual=ite.translateEng(93);
+								assertThat(actual,is(expected));	
+							}
+					@Test
+					public void 九十四を入力したときninetyfourと出力される() {
+						IntToEng ite=new IntToEng();
+								String expected= "ninety-four";
+								String actual=ite.translateEng(94);
+								assertThat(actual,is(expected));	
+							}
+					@Test
+					public void 九十五を入力したときninetyfiveと出力される() {
+						IntToEng ite=new IntToEng();
+								String expected= "ninety-five";
+								String actual=ite.translateEng(95);
+								assertThat(actual,is(expected));	
+							}
+					
+					@Test
+					public void 九十六を入力したときninetysixと出力される() {
+						IntToEng ite=new IntToEng();
+								String expected= "ninety-six";
+								String actual=ite.translateEng(96);
+								assertThat(actual,is(expected));	
+							}
+					
+					@Test
+					public void 九十七を入力したときninetysevenと出力される() {
+						IntToEng ite=new IntToEng();
+								String expected= "ninety-seven";
+								String actual=ite.translateEng(97);
+								assertThat(actual,is(expected));	
+							}
+					
+					@Test
+					public void 九十八を入力したときninetyeightと出力される() {
+						IntToEng ite=new IntToEng();
+								String expected= "ninety-eight";
+								String actual=ite.translateEng(98);
+								assertThat(actual,is(expected));	
+							}
+					
+					@Test
+					public void 九十九を入力したときninetynineと出力される() {
+						IntToEng ite=new IntToEng();
+								String expected= "ninety-nine";
+								String actual=ite.translateEng(99);
+								assertThat(actual,is(expected));	
+							}
+					
+					@Test
+					public void 百を入力したときonehundredと出力される() {
+						IntToEng ite=new IntToEng();
+								String expected= "one-hundred";
+								String actual=ite.translateEng(100);
+								assertThat(actual,is(expected));	
+							}
+					
+					@Test
+					public void 百一を入力したときonehundredoneと出力される() {
+						IntToEng ite=new IntToEng();
+								String expected= "one-hundred-one";
+								String actual=ite.translateEng(101);
+								assertThat(actual,is(expected));	
+							}
+					public void 百二を入力したときonehundredtwoと出力される() {
+						IntToEng ite=new IntToEng();
+								String expected= "one-hundred-two";
+								String actual=ite.translateEng(102);
+								assertThat(actual,is(expected));	
+							}
+					
+					@Test
+					public void 百三を入力したときonehundredthreeと出力される() {
+						IntToEng ite=new IntToEng();
+								String expected= "one-hundred-three";
+								String actual=ite.translateEng(103);
+								assertThat(actual,is(expected));	
+							}
+					
+					@Test
+					public void 百四を入力したときonehundredfourと出力される() {
+						IntToEng ite=new IntToEng();
+								String expected= "one-hundred-four";
+								String actual=ite.translateEng(104);
+								assertThat(actual,is(expected));	
+							}
+					
+					@Test
+					public void 百五を入力したときonehundredfiveと出力される() {
+						IntToEng ite=new IntToEng();
+								String expected= "one-hundred-five";
+								String actual=ite.translateEng(105);
+								assertThat(actual,is(expected));	
+							}
+					
+					@Test
+					public void 百六を入力したときonehundredsixと出力される() {
+						IntToEng ite=new IntToEng();
+								String expected= "one-hundred-six";
+								String actual=ite.translateEng(106);
+								assertThat(actual,is(expected));	
+							}
+					
+					@Test
+					public void 百七を入力したときonehundredsevenと出力される() {
+						IntToEng ite=new IntToEng();
+								String expected= "one-hundred-seven";
+								String actual=ite.translateEng(107);
+								assertThat(actual,is(expected));	
+							}
+					
+					@Test
+					public void 百八を入力したときonehundredeightと出力される() {
+						IntToEng ite=new IntToEng();
+								String expected= "one-hundred-eight";
+								String actual=ite.translateEng(108);
+								assertThat(actual,is(expected));	
+							}
+					
+					@Test
+					public void 百九を入力したときonehundrednineと出力される() {
+						IntToEng ite=new IntToEng();
+								String expected= "one-hundred-nine";
+								String actual=ite.translateEng(109);
+								assertThat(actual,is(expected));	
+							}
+					
+					@Test
+					public void 百十を入力したときonehundredtenと出力される() {
+						IntToEng ite=new IntToEng();
+								String expected= "one-hundred-ten";
+								String actual=ite.translateEng(110);
+								assertThat(actual,is(expected));	
+							}
+					
+					@Test
+					public void 百十一を入力したときonehundredelevenと出力される() {
+						IntToEng ite=new IntToEng();
+								String expected= "one-hundred-eleven";
+								String actual=ite.translateEng(111);
+								assertThat(actual,is(expected));	
+							}
+					public void 百十二を入力したときonehundredtwelveと出力される() {
+						IntToEng ite=new IntToEng();
+								String expected= "one-hundred-twelve";
+								String actual=ite.translateEng(112);
+								assertThat(actual,is(expected));	
+							}
+					
+					@Test
+					public void 百十三を入力したときonehundredthirteenと出力される() {
+						IntToEng ite=new IntToEng();
+								String expected= "one-hundred-thirteen";
+								String actual=ite.translateEng(113);
+								assertThat(actual,is(expected));	
+							}
+					
+					@Test
+					public void 百十四を入力したときonehundredfourteenと出力される() {
+						IntToEng ite=new IntToEng();
+								String expected= "one-hundred-fourteen";
+								String actual=ite.translateEng(114);
+								assertThat(actual,is(expected));	
+							}
+					
+					@Test
+					public void 百十五を入力したときonehundredfifteenと出力される() {
+						IntToEng ite=new IntToEng();
+								String expected= "one-hundred-fifteen";
+								String actual=ite.translateEng(115);
+								assertThat(actual,is(expected));	
+							}
+					
+					@Test
+					public void 百十六を入力したときonehundredsixteenと出力される() {
+						IntToEng ite=new IntToEng();
+								String expected= "one-hundred-sixteen";
+								String actual=ite.translateEng(116);
+								assertThat(actual,is(expected));	
+							}
+					
+					@Test
+					public void 百十七を入力したときonehundredseventeenと出力される() {
+						IntToEng ite=new IntToEng();
+								String expected= "one-hundred-seventeen";
+								String actual=ite.translateEng(117);
+								assertThat(actual,is(expected));	
+							}
+					
+					@Test
+					public void 百十八を入力したときonehundredeighteenと出力される() {
+						IntToEng ite=new IntToEng();
+								String expected= "one-hundred-eighteen";
+								String actual=ite.translateEng(118);
+								assertThat(actual,is(expected));	
+							}
+					
+					@Test
+					public void 百十九を入力したときonehundrednineteenと出力される() {
+						IntToEng ite=new IntToEng();
+								String expected= "one-hundred-nineteen";
+								String actual=ite.translateEng(119);
+								assertThat(actual,is(expected));	
+							}
+					public void 百二十を入力したときonehundredtwentyと出力される() {
+						IntToEng ite=new IntToEng();
+								String expected= "one-hundred-twenty";
+								String actual=ite.translateEng(120);
+								assertThat(actual,is(expected));	
+							}
 }
